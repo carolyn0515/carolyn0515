@@ -21,6 +21,10 @@ Machine Learning · Deep Learning · Financial Data
   <a href="https://github.com/carolyn0515">
     <img src="https://img.shields.io/badge/GitHub-carolyn0515-6B8E23?style=for-the-badge&logo=github&logoColor=white" />
   </a>
+  &nbsp;
+  <a href="https://carolyn0515.tistory.com/">
+    <img src="https://img.shields.io/badge/Research%20Blog-Tistory-808000?style=for-the-badge&logo=tistory&logoColor=white" />
+  </a>
 </p>
 
 </div>

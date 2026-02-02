@@ -35,8 +35,9 @@ Machine Learning · Deep Learning · Financial Data
 
 | | |
 |---|---|
-| <img src="https://img.shields.io/badge/💳%20TRANSACTION%20ANALYTICS-0B1A10?style=for-the-badge&labelColor=556B2F&color=0B1A10" /><br/><sub>Large-scale financial transactions · Card/Client/Merchant signals</sub> | <img src="https://img.shields.io/badge/🤖%20ML%20%2F%20DL%20MODELING-0B1A10?style=for-the-badge&labelColor=6B8E23&color=0B1A10" /><br/><sub>Practical ML pipelines · Learning DL for sequential/behavioral patterns</sub> |
-| <img src="https://img.shields.io/badge/🧩%20FEATURE%20ENGINEERING-0B1A10?style=for-the-badge&labelColor=808000&color=0B1A10" /><br/><sub>Signal design from noisy columns · Robust preprocessing</sub> | <img src="https://img.shields.io/badge/⚖️%20IMBALANCED%20LEARNING-0B1A10?style=for-the-badge&labelColor=9ACD32&color=0B1A10" /><br/><sub>Severe imbalance handling · PR-oriented iteration</sub> |
+| <img src="https://img.shields.io/badge/📊%20DATA%20SCIENCE-0B1A10?style=for-the-badge&labelColor=556B2F&color=0B1A10" /><br/><sub>Exploratory analysis · Statistical reasoning · Insight extraction</sub> | <img src="https://img.shields.io/badge/🛠%20DATA%20ENGINEERING-0B1A10?style=for-the-badge&labelColor=6B8E23&color=0B1A10" /><br/><sub>Data pipelines · Preprocessing · ML-ready datasets</sub> |
+| <img src="https://img.shields.io/badge/🤖%20MACHINE%20LEARNING-0B1A10?style=for-the-badge&labelColor=808000&color=0B1A10" /><br/><sub>Feature-based models · Imbalance-aware learning</sub> | <img src="https://img.shields.io/badge/🧠%20DEEP%20LEARNING-0B1A10?style=for-the-badge&labelColor=9ACD32&color=0B1A10" /><br/><sub>Sequential modeling · Representation learning</sub> |
+
 
 ---
 

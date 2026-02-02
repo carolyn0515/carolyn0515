@@ -94,6 +94,7 @@ Machine Learning · Deep Learning · Financial Data
 
 ## 📈 Activity Timeline
 
+2024 — Healthcare AI Idea Competition (Excellence Award)
 2024 ── Naver Coaching Study · Data Science  
 2025 ── CI Lab · Research Intern  
 2026 ── BDAI · Financial Data Science  

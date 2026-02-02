@@ -91,15 +91,12 @@ Machine Learning · Deep Learning · Financial Data
 
 ---
 
-## 📈 GitHub Activity
+## 📈 Activity Timeline
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=carolyn0515&show_icons=true&theme=transparent&title_color=EAF5D9&icon_color=9ACD32&text_color=CFE8B5&ring_color=6B8E23"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=carolyn0515&layout=compact&theme=transparent&title_color=EAF5D9&text_color=CFE8B5"/>
-
-</div>
+2024 ── Naver Coaching Study · Data Science  
+2025 ── CI Lab · Research Intern  
+2026 ── BDAI · Financial Data Science  
+2026 ── MetaCode · Data Engineering
 
 ---
 

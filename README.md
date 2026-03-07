@@ -108,7 +108,9 @@ Machine Learning · Financial Data · Data Pipelines
 2024 ── Naver Coaching Study · Data Science  
 2025 ── CI Lab · Research Intern  
 2026 ── BDAI Financial Data Science (Outstanding Member)  
-2026 ── MetaCode Data Engineering Bootcamp  
+2026 ── BDAI Data Analysis Practicum · Data Handling & Automation  
+2026 ── BDAI Data Analysis Modeling · ML Model Deployment  
+2026 ── MetaCode Data Engineering Bootcamp
 
 ---
 

@@ -126,7 +126,7 @@ Career progression in financial data engineering and machine learning systems
 └─ CI Lab · Research Intern
 
 2026
-├─ BDAI Financial Data Science (Outstanding Member)
+├─ BDAI Financial Data Science Advanced Program (Outstanding Member)
 ├─ BDAI Data Analysis Practicum · Data Handling & Automation
 ├─ BDAI Data Analysis Modeling · ML Model Deployment
 ├─ MetaCode Data Engineering Bootcamp

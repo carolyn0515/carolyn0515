@@ -130,8 +130,7 @@ Career progression in financial data engineering and machine learning systems
 ├─ BDAI Data Analysis Practicum · Data Handling & Automation
 ├─ BDAI Data Analysis Modeling · ML Model Deployment
 ├─ MetaCode Data Engineering Bootcamp
-├─ Integrity Financial Investment Society · Financial Data Analysis
-└─ BDAI × WorldQuant Quantitative Research Study
+└─ Integrity Financial Investment Society · Financial Data Analysis
 ```
 
 ---

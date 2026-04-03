@@ -32,18 +32,6 @@ Building scalable systems that transform raw transactions into operational intel
 
 ---
 
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=carolyn0515&show_icons=true&theme=dark&title_color=9ACD32&icon_color=556B2F&text_color=ffffff&bg_color=0d1117"/>
-
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=carolyn0515&layout=compact&theme=dark&title_color=9ACD32&text_color=ffffff&bg_color=0d1117"/>
-
-</div>
-
----
-
 ## ⚙️ Tech Stack
 
 ### Languages

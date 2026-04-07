@@ -11,8 +11,7 @@ Machine Learning Systems · Financial Data · Cloud Pipelines
 
 ## 💡 Core Principle
 
-> I approach data engineering and analysis by relentlessly asking **"Why?"**.  
-> My goal is to build systems that are not only functional, but logically explainable end to end.
+> Essence · Why · Efficient Execution
 
 ---
 

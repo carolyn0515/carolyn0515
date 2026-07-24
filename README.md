@@ -332,10 +332,6 @@ I aim to understand not only **how a system works**, but also:
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=carolyn0515&show_icons=true&hide_border=true&title_color=1F3D2B&icon_color=6B8E23&text_color=334139&bg_color=00000000"/>
-
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=carolyn0515&layout=compact&hide_border=true&title_color=1F3D2B&text_color=334139&bg_color=00000000"/>
-
 </div>
 
 <div align="center">

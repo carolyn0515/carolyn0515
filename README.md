@@ -294,6 +294,7 @@ I aim to understand not only **how a system works**, but also:
 | 2026 – Present | SelectStar                     | Data Assistant          |
 | 2026 – Present      | BOAZ                           | Data Engineering Member |
 | 2026 – Present      | Young Engineers Honor Society  | Associate Member        |
+| 2026                | Financial Data Science - Outstanding Graduate | BDAI Member |
 | 2025                | CI Lab                         | Research Intern         |
 | 2024                | Healthcare AI Idea Competition | Excellence Award        |
 

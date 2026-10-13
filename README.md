@@ -191,23 +191,22 @@ Production-style exercises for understanding data systems from principles to ope
 </td>
 <td width="50%" valign="top">
 
-### Legal AI Data Pipeline
+### Real-Time FDS Data Pipeline
 
-Designing a reliable document data pipeline for legal AI and retrieval systems.
+Designing a reliable real-time data pipeline for financial fraud detection and transaction monitoring.
 
 **Topics**
 
-* Multi-format document ingestion
-* PDF text extraction and validation
-* Content hashing and deduplication
-* Metadata and data contract design
-* Versioning and change detection
-* Parsing and semantic chunking
+* Real-time transaction data ingestion and streaming
+* Event-driven architecture with Apache Kafka
+* Stateful stream processing and feature engineering
+* Data consistency, deduplication, and fault tolerance
+* Event-time processing and window-based aggregation
+* Pipeline monitoring, recovery, and performance optimization
 
 **Stack**
 
-`Python` `PyMuPDF` `YAML` `RAG`
-
+`Java` `Python` `Apache Kafka` `Apache Flink` `MySQL` `Docker`
 </td>
 </tr>
 

@@ -54,30 +54,25 @@ My current interests include:
 
 ### Professional
 
-* **Data Assistant**
-  SelectStar
+* **Data Assistant — SelectStar**  
   July 2026 – Present
 
-* Building and evaluating AI datasets
-
-* Supporting data quality validation
-
-* Automating data processing workflows
-
-* Participating in AI data and evaluation projects
+* Contributing to the design and development of a legal-domain data generation and validation pipeline for a Hyundai Engineering & Construction project
+* Contributing to an end-to-end financial AI assessment toolkit project for the Korea Financial Security Institute: axis-specific dataset generation, verification, query-specific rubrics, and evaluation
+* Developing validation, evaluation reliability, and resource benchmarking workflows
 
 </td>
 <td width="50%" valign="top">
 
-### Community
+### Community & Education
 
-* **Data Engineering Member**
-  BOAZ
+* **NICE Data Analyst Program — Cohort 2**  
+  Selected scholar / program member
 
-* **Associate Member**
+* **Associate Member**  
   Young Engineers Honor Society
 
-* **Mobile Systems Engineering**
+* **Mobile Systems Engineering**  
   Dankook University
 
 </td>
@@ -163,95 +158,184 @@ My current interests include:
   <img src="https://img.shields.io/badge/PyTorch-7A9135?style=for-the-badge&logo=pytorch&logoColor=white"/>
 </p>
 
+
+### Ousia Platform Stack
+
+<p>
+  <img src="https://img.shields.io/badge/PostgreSQL-1F3D2B?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-456B4E?style=for-the-badge&logo=redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Debezium-6B8E23?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Parquet-7A9135?style=for-the-badge&logo=apacheparquet&logoColor=white"/>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/DuckDB-1F3D2B?style=for-the-badge&logo=duckdb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/dbt-456B4E?style=for-the-badge&logo=dbt&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MLflow-6B8E23?style=for-the-badge&logo=mlflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Implicit%20ALS-7A9135?style=for-the-badge"/>
+</p>
+
+
 ---
 
 ## Featured Engineering Work
+
+### Ousia Data Platform
+
+Building a data-driven learning platform that connects reliable streaming delivery, reproducible synthetic datasets, analytical pipelines, and recommendation serving.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Data Engineering Deep Practice
+### 01 · Real-Time Data Streaming Engine
 
-Production-style exercises for understanding data systems from principles to operations.
+Session-aware synthetic event delivery using Kafka, with PostgreSQL as the OLTP/control-plane source of truth and Kafka consumers as the streaming data plane.
 
-**Topics**
+**Engineering highlights**
 
-* Kafka broker and consumer behavior
-* Partitioning and offset management
-* Consumer lag and backpressure
-* Flink state and checkpointing
-* Failure recovery experiments
-* Performance and tuning analysis
+* Transactional outbox and Debezium CDC to avoid dual-write gaps
+* Session-scoped Redis Streams with cursor recovery and NDJSON delivery
+* Deterministic event IDs, bounded buffers, TTLs, and replay-safe handling
+* Optional Parallel Consumer mode with per-session ordering
+* Redis handoff-aware offset commits, retries, DLQ, and lag metrics
 
 **Stack**
 
-`Kafka` `Flink` `Docker` `Python`
+`PostgreSQL` `Kafka` `Debezium` `Redis` `Java`
 
 </td>
 <td width="50%" valign="top">
 
-### Real-Time FDS Data Pipeline
+### 02 · Synthetic Data & Operations
 
-Designing a reliable real-time data pipeline for financial fraud detection and transaction monitoring.
+Blueprint-driven generation of reproducible datasets and streaming troubleshooting scenarios, accompanied by verifiable quality evidence.
 
-**Topics**
+**Engineering highlights**
 
-* Real-time transaction data ingestion and streaming
-* Event-driven architecture with Apache Kafka
-* Stateful stream processing and feature engineering
-* Data consistency, deduplication, and fault tolerance
-* Event-time processing and window-based aggregation
-* Pipeline monitoring, recovery, and performance optimization
+* Domain, schema, distribution, volume, and scenario blueprints
+* CSV, JSONL, and Parquet packages with schemas and data dictionaries
+* Checksummed manifests and data-quality contracts
+* Selective injection of spikes, lag, duplicates, and schema drift
+* Airflow orchestration and human-reviewed RSS/Atom challenge ingestion
 
 **Stack**
 
-`Java` `Python` `Apache Kafka` `Apache Flink` `MySQL` `Docker`
+`Python` `Parquet` `Airflow` `S3` `dbt`
+
 </td>
 </tr>
-
 <tr>
 <td width="50%" valign="top">
 
-### AWS Data Pipeline
+### 03 · Analytics Engineering & OLAP
 
-Building a cloud-based data ingestion and analytics workflow.
+A layered DuckDB and dbt analytics foundation that separates operational workloads from analytical transformations and publication.
 
-**Topics**
+**Engineering highlights**
 
-* Raw data ingestion to S3
-* Relational data storage
-* Metadata management
-* Athena-based analytics
-* Reproducible ETL workflows
+* Parquet landing, L1 dimension/fact models, and L2 consumption marts
+* dbt uniqueness, relationship, and accepted-value tests
+* Fail-closed quality gates before downstream marts and training
+* Idempotent publication to PostgreSQL serving tables
+* Cloud-scale migration path to Databricks
 
 **Stack**
 
-`AWS` `S3` `RDS` `Athena` `Python`
+`DuckDB` `dbt` `Parquet` `PostgreSQL` `Airflow`
 
 </td>
 <td width="50%" valign="top">
 
-### Lakehouse Architecture Lab
+### 04 · Recommendation & Model Updates
 
-Exploring real-time and batch data architecture using modern lakehouse technologies.
+Batch top-N dataset recommendations with an offline model lifecycle and simple, versioned online serving.
 
-**Topics**
+**Engineering highlights**
 
-* Streaming ingestion
-* Incremental data processing
-* Snapshot-based table management
-* Schema evolution
-* Real-time and batch serving
-* Data quality publication gates
+* Implicit-feedback ALS with metadata-based cold-start fallback
+* Drift monitoring and candidate model evaluation
+* MLflow experiment and artifact tracking
+* Champion/challenger promotion with ranking, coverage, and diversity checks
+* Versioned batch scoring and idempotent PostgreSQL publication
 
 **Stack**
 
-`Paimon` `Iceberg` `Spark` `StarRocks`
+`Python` `Implicit ALS` `MLflow` `Airflow` `PostgreSQL`
 
 </td>
 </tr>
 </table>
+
+**Planned extensions — not yet implemented:** OpenMetadata for catalog, lineage, ownership, and governance; FastMCP for governed analytical tools and context for AI assistants.
+
+
+---
+
+## Professional Engineering Contributions
+
+Selected engineering contributions from my internship at **SelectStar**. Descriptions are limited to high-level technical responsibilities and omit proprietary datasets, client configurations, and internal implementation details.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Legal Data Generation & Validation
+
+**Client project: Hyundai Engineering & Construction**
+
+Contributed to the design and development of a document-grounded legal data generation and validation pipeline for a RAG-based legal QA workflow.
+
+**Engineering highlights**
+
+* Processing legal and regulatory source documents into structured, traceable inputs
+* Designing generation and validation stages around source evidence and question–answer consistency
+* Supporting quality checks for factual grounding, completeness, and alignment with intended question types
+* Improving reproducibility and maintainability of data processing workflows
+
+**Focus**
+
+`Python` `Document Processing` `RAG Data` `Validation`
+
+</td>
+<td width="50%" valign="top">
+
+### Financial AI Assessment Toolkit (FSAT)
+
+**Client project: Korea Financial Security Institute**
+
+Contributed to the design and development of an end-to-end evaluation data pipeline spanning five assessment axes: fairness, security, performance, hallucination, and explainability (XAI).
+
+**Engineering highlights**
+
+* Axis-specific question generation, schema and format validation, and quality verification
+* Security prompt generation using technique, target, persona, and financial-context dimensions
+* Source-grounded explainability questions built from structured conditions extracted from document chunks
+* Research-informed, query-specific rubric generation and validation workflow design
+* Evaluation reliability features, including multi-judge voting and human–judge agreement analysis
+
+**Focus**
+
+`Python` `LLM Evaluation` `JSONL` `Rubrics` `Data Quality`
+
+</td>
+</tr>
+</table>
+
+### Selected FSAT Engineering Details
+
+| Area | My contributions and technical focus |
+| --- | --- |
+| **Security data generation** | Four direct-query attack families (`direct_injection`, `structural_injection`, `jailbreak`, `info_leak`); combinatorial technique/target/persona/context sampling; format and attack-preservation gates. |
+| **XAI question generation** | Extracting source-linked rule atoms from document chunks and constructing judgment, recommendation, and explanation-oriented questions with traceable evidence. |
+| **Sensitive-data verification** | Rule-based detection and contextual filtering for structured personal identifiers; experimentally comparing context-window sizes on synthetic data. |
+| **Rubric pipeline** | Designing category-aware dimension pools, question-specific rubrics, and quality gates informed by CaRG and RubricHub; research/design work is distinguished from validated deployment. |
+| **Judge reliability** | Developing multi-judge voting options and human–LLM concordance workflows, including reviewer worksheets, agreement matrices, and heatmap outputs. |
+| **Resource benchmarking** | Designing and running container-isolated CPU/RAM measurements using cgroup v2, mock model endpoints, and repeated workload matrices to inform deployment sizing. |
+
+**Benchmark scope:** The FSAT sizing exercise used 176 configurations × 3 repetitions (528 runs) in an Apple Silicon Docker Desktop Linux VM with mocked model responses. Recommendations are preliminary and require validation on the target Linux deployment architecture; the documented experiment did **not** independently sweep LLM concurrency levels.
+
+**Implementation note:** Some rubric-generation material documents research and pipeline design rather than a verified production deployment. The descriptions above do not imply that every proposed stage is already deployed.
 
 ---
 
@@ -265,6 +349,25 @@ I aim to understand not only **how a system works**, but also:
 * How it recovers
 * How it behaves under load
 * How it should be operated in production
+
+---
+
+## How I Work with AI
+
+I use AI as a tool in my engineering workflow while reflecting on what I delegate and what I take responsibility for myself.
+
+<table>
+<tr>
+<td width="50%" align="center" bgcolor="#1F3D2B"><strong><font color="#FFFFFF">What I Delegate to AI</font></strong></td>
+<td width="50%" align="center" bgcolor="#456B4E"><strong><font color="#FFFFFF">What I Do Myself</font></strong></td>
+</tr>
+<tr>
+<td width="50%" valign="top">&nbsp;</td>
+<td width="50%" valign="top">&nbsp;</td>
+</tr>
+</table>
+
+*This section will evolve as I gain experience and refine my approach to AI-assisted engineering.*
 
 ---
 
@@ -290,12 +393,13 @@ I aim to understand not only **how a system works**, but also:
 
 | Period              | Organization                   | Role                    |
 | ------------------- | ------------------------------ | ----------------------- |
-| 2026 – Present | SelectStar                     | Data Assistant          |
-| 2026 – Present      | BOAZ                           | Data Engineering Member |
-| 2026 – Present      | Young Engineers Honor Society  | Associate Member        |
-| 2026                | Financial Data Science - Outstanding Graduate | BDAI Member |
-| 2025                | CI Lab                         | Research Intern         |
-| 2024                | Healthcare AI Idea Competition | Excellence Award        |
+| 2026 Jul – Present | SelectStar | Data Assistant — AI data pipelines & evaluation tooling |
+| 2026 Nov – Present | NICE Data Analyst Program, Cohort 2 | Selected Scholar / Member |
+| 2026 – Present | Young Engineers Honor Society | Associate Member |
+| 2026 (1 month) | BOAZ | Data Engineering Member (1 month) |
+| 2026 | Financial Data Science - Outstanding Graduate | BDAI Member |
+| 2025 | CI Lab | Research Intern |
+| 2024 | Healthcare AI Idea Competition | Excellence Award |
 
 ---
 
